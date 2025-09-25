@@ -1,0 +1,12 @@
+**Title**: App doesn’t handle uppercase or mixed-case city names
+
+**Steps to Reproduce**:
+1. Open Weather Checker Lite
+2. Type "LONDON" in all caps
+3. Click "Check Weather"
+
+**Expected**: Should show the weather for the city (e.g., for “nairobi ”, show “nairobi”, “24°C”, “Sunny ☀️”).
+**Actual**: Shows "City not found" Try: nairobi, london, tokyo, new york, sydney.”
+**Severity**: Medium
+
+**Additional Notes**: Despite .trim(), extra spaces still break the exact match. Suggest adding .toLowerCase() after trim.
