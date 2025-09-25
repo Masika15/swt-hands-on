@@ -1,0 +1,15 @@
+**Title**: App doesn’t handle city names with leading/trailing spaces
+
+**Steps to Reproduce**:
+1. Type “nairobi ” (with a trailing space) or “ london” (with a leading space) in the city input field.
+2. Click “Check Weather” or press Enter.
+
+**Expected**: Should show the weather for the city (e.g., for “nairobi ”, show “Nairobi”, “24°C”, “Sunny ☀️”).
+**Actual**: Shows “City not found. Try: nairobi, london, tokyo, new york, sydney.”
+**Severity**: Medium
+
+**Additional Testing Notes**: 
+1. Empty Input: Correctly does nothing (no error or weather display), which is acceptable but could be improved to show an error like “Please enter a city.”
+2. Special Characters/Numbers: Inputs like “nairobi123” or “london!” return “City not found,” which is correct since these aren’t valid cities.
+3. Enter Key: Works as expected, triggering the same action as the button.
+4. UI Consistency: The weather display hides correctly on error, and errors clear on valid input.
