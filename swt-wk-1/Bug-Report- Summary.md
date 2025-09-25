@@ -28,7 +28,7 @@ The app only recognizes city names in exact lowercase format, rejecting valid ci
 ---
 
 ### 🐞 BUG-002  
-**Title**: No validation for empty city input  
+**Title**: App doesn’t handle city names with leading/trailing spaces  
 **GitHub Link**:swt-wk-Issue #1  
 **Requirement Affected**: UI Feedback  
 **Severity**: Medium  
