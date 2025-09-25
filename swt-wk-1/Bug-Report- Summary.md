@@ -29,7 +29,7 @@ The app only recognizes city names in exact lowercase format, rejecting valid ci
 
 ### 🐞 BUG-002  
 **Title**: App doesn’t handle city names with leading/trailing spaces  
-**GitHub Link**:swt-wk-Issue #1  
+**GitHub Link**: swt-wk-1/Issue #2  
 **Requirement Affected**: UI Feedback  
 **Severity**: Medium  
 **Summary**:  
